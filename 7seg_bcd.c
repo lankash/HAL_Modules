@@ -8,7 +8,7 @@ File Contents : '7SEG' impelimentation Functions
 */
 
 #include "DIO.h"
-#include "sevenSEG_bsc.h"
+#include "7seg_bsd.h"
 
 void sevenSEG_init_bcd(unsigned char port)    //Initializing the 'O/P' pins for the 7SEG-PCD.
 {
