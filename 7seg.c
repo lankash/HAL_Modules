@@ -11,7 +11,7 @@ File Contents : '7SEG' implimentation Functions
 
 void sevenSEG_init (unsigned char port)
 {
-  DIO_set_port_dir(port, 1);      //Set 'PORT' as 'O/P'.
+  DIO_set_port_dir(port, 0xff);      //Set 'PORT' as 'O/P'.
 }
 
 
